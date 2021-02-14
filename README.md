@@ -5,6 +5,7 @@
 - NodeJS;
 - Express;
 - EJS;
+- consign;
 - Mysql;
 - Padrão MVC.
 
