@@ -6,6 +6,8 @@
 - Express;
 - EJS;
 - Consign;
+- Body-parser;
+- Express-validator;
 - Mysql;
 - Padrão MVC.
 
