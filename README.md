@@ -45,7 +45,7 @@
 
 -  no arquivo config/dbConnection será necessário alterar a linha 8 colocando o valor da propriedade password igual sua senha do banco de dados;
 
-- inicie o servidor com o comando `nodemon app`;
+- inicie o servidor com o comando `node app.js`;
 
 - abra o projeto no browser em localhost:3000;
 
