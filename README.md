@@ -19,7 +19,7 @@
 - "/form_inclusao_noticia": disponibiliza um formulário pra cadastro de novas noticias;
 - "/noticias/salvar": efetua a postagem da noticia no banco de dados, , caso algum campo não esteja preenchido corretamente um aviso será exibido apontando o campo que será necessário ser corrigido, caso esteja preenchido corretamente encaminhara para pagina de noticias.
 
-### Para visualizar o projeto em andamento:
+### Para visualizar o projeto em funcionamento:
 
 - Após clonar o diretório do projeto execute o comando `npm install` para que todas a dependências necessárias sejam instaladas;
 
