@@ -8,7 +8,7 @@
 - Consign;
 - Body-parser;
 - Express-validator;
-- Mysql;
+- MySql;
 - Padrão MVC.
 
 ### Rotas do projeto:
