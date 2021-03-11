@@ -6,7 +6,6 @@
 - Express;
 - EJS;
 - Consign;
-- Body-parser;
 - Express-validator;
 - MySql;
 - Padrão MVC.
@@ -39,9 +38,7 @@
       data_criacao timestamp default current_timestamp,
       resumo varchar(100),
       autor varchar(30),
-      date_noticia date
-  );  
-  ```
+      date_noticia date); ```  
 
 -  no arquivo config/dbConnection será necessário alterar a linha 8 colocando o valor da propriedade password igual sua senha do banco de dados;
 

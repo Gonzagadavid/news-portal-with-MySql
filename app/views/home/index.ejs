@@ -34,7 +34,7 @@
 
 
 		<div class="container">
-			<% if (noticias.length > 0) { %>
+			<% if (noticias && noticias.length > 0) { %>
 	    	<div class="row">
 	    		<div class="col-md-8">
 	    			<div class="noticia_wrapper">
@@ -47,7 +47,7 @@
 		    	</div>
 		  <% } %>
 
-			<% if (noticias.length > 1) { %>
+			<% if (noticias && noticias.length > 1) { %>
 				<div class="col-md-4">
 					<div class="noticia_wrapper">
 						<span class="noticia_autor"><%= noticias[1].autor %></span>
@@ -62,7 +62,7 @@
 		</div>
 
 		<div class="row">
-			<% if (noticias.length > 2) { %>
+			<% if (noticias && noticias.length > 2) { %>
 				<div class="col-md-4">
 					<div class="noticia_wrapper">
 						<span class="noticia_autor"><%= noticias[2].autor %></span>
@@ -74,7 +74,7 @@
 				</div>
 			<% } %>
 			
-			<% if (noticias.length > 3) { %>
+			<% if (noticias && noticias.length > 3) { %>
 				<div class="col-md-4">
 					<div class="noticia_wrapper">
 						<span class="noticia_autor"><%= noticias[3].autor %></span>
@@ -87,7 +87,7 @@
 				</div>
 			<% } %>
 
-			<% if (noticias.length > 4) { %>
+			<% if (noticias && noticias.length > 4) { %>
 				<div class="col-md-4">
 					<div class="noticia_wrapper">
 						<span class="noticia_autor"><%= noticias[4].autor %></span>
